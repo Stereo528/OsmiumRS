@@ -1,0 +1,17 @@
+[package]
+name = "OsmiumRS"
+version = "0.1.0"
+edition = "2018"
+description = "All around versatile discord bot for fun and slight moderation."
+homepage = "https://stereo528.github.io"
+repository = "https://github.com/Stereo528/OsmiumRS"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serenity = "0.10"
+
+[[bin]]
+name = "OsmiumRS"
+path = "src/main.rs"
